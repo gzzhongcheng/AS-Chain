@@ -162,10 +162,10 @@ contract StandardToken is ERC20, BasicToken {
 }
 
 contract ASCCoin is StandardToken {
-  string public name = "AS Chain";
-  string public symbol = "AS-Chain";
+  string public name = "AS Coins";
+  string public symbol = "ASCS";
   uint8 public decimals = 8;
-  uint256 public INITIAL_SUPPLY = 1000000000;
+  uint256 public INITIAL_SUPPLY = 100000000000000000;
 
   function ASCCoin() public{
     totalSupply = INITIAL_SUPPLY;
